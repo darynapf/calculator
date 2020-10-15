@@ -33,3 +33,14 @@ button {
 button:hover {
     background-color: #EAF2FF;
 }
+
+.opr,
+.equal {
+    background-color: #2D77FE;
+    color: #fff;
+}
+
+.opr:hover,
+.equal:hover {
+    background-color: #1963E9;
+}
