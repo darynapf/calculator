@@ -16,6 +16,9 @@ body {
     height: 60px;
     font-size: 18px;
     padding-left: 20px;
+    border: 0;
+    outline: 0;
+    background-color: #FBFBFF;
 }
 
 .clean {
@@ -28,10 +31,12 @@ button {
     height: 60px;
     border: none;
     cursor: pointer;
+    outline: 0;
 }
 
 button:hover {
     background-color: #EAF2FF;
+    outline: 0;
 }
 
 .opr,
@@ -43,4 +48,10 @@ button:hover {
 .opr:hover,
 .equal:hover {
     background-color: #1963E9;
+}
+
+.opr:active,
+.equal:active {
+    background-color: #F8AA14;
+    outline: 0;
 }
